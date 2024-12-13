@@ -291,8 +291,8 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - L CLK
+  - R CLK
   - RETURN
   - {t: ▽, type: trans}
   SLOW:

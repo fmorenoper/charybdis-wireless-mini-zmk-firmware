@@ -42,131 +42,131 @@ layers:
   - ENTER
   - NAV
   NUM:
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - /
-  - {t: '7', h: F7}
-  - {t: '8', h: F8}
-  - {t: '9', h: F9}
-  - {t: '-', h: F10}
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
   - BACK SPACE
-  - ''
-  - '*'
-  - {t: '4', h: F4}
-  - {t: '5', h: F5}
-  - {t: '6', h: F6}
-  - {t: +, h: F11}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - .
-  - {t: '1', h: F1}
-  - {t: '2', h: F2}
-  - {t: '3', h: F3}
-  - {t: '=', h: DEV TOOLS}
-  - ''
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  NAV:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PANE ◀
-  - PANE ▲
-  - PANE ▼
-  - PANE ▶
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - VSPLIT
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - HSPLIT
-  - HOME
-  - PG DN
-  - PG UP
-  - END
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  SYM:
-  - ''
-  - +
-  - '{'
-  - '}'
-  - '-'
-  - ':'
-  - \
-  - '`'
-  - $
-  - ^
-  - ''''
-  - ''
-  - ''
-  - {t: '!', h: LCMD}
-  - {t: (, h: LEFT ALT}
-  - {t: ), h: LCTRL}
-  - {t: SPACE, h: LEFT SHIFT}
-  - '~'
-  - /
-  - {t: SPACE, h: LEFT SHIFT}
-  - {t: <, h: LCTRL}
-  - {t: '>', h: LEFT ALT}
-  - '#'
-  - ''
-  - ''
-  - '='
-  - '['
-  - ']'
-  - _
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
   - ;
-  - '|'
-  - '*'
-  - '&'
-  - '%'
-  - '@'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - {t: ▽, type: trans}
+  - ''''
+  - {t: '*', h: LEFT SHIFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: (, h: RSHIFT}
+  - LEFT COMMAND
+  - {t: NUM, type: held}
+  - SPACE
+  - ENTER
+  - NAV
+  NAV:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACK SPACE
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: '*', h: LEFT SHIFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: (, h: RSHIFT}
+  - LEFT COMMAND
+  - NUM
+  - SPACE
+  - ENTER
+  - {t: NAV, type: held}
+  SYM:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACK SPACE
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: '*', h: LEFT SHIFT}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: (, h: RSHIFT}
+  - LEFT COMMAND
+  - NUM
+  - SPACE
+  - ENTER
+  - NAV
   GAME: ['1', TAB, Q, W, E, R, '', '', '', '', '', '', '2', LCTRL, A, S, D, F, '', '', '', '', '', '', '3', LSHFT, Z, X, C, V, '', '', '', '', '', '', '', SPACE,
     LEFT ALT, '', '']
   PHOTOS:

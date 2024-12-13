@@ -42,47 +42,47 @@ layers:
   - ENTER
   - NAV
   NUM:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - BACK SPACE
-  - LCTRL
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - {t: '*', h: LEFT SHIFT}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: (, h: RSHIFT}
-  - LEFT COMMAND
-  - {t: NUM, type: held}
-  - SPACE
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BACK SPACE
+  - {t: '`', h: LEFT SHIFT}
+  - ''
+  - ''
+  - ''
+  - ''
+  - END
+  - PAGE DOWN
+  - Alt+ LEFT
+  - Alt+ DOWN ARROW
+  - Alt+ UP ARROW
+  - Alt+ RIGHT
+  - {t: '~', h: RIGHT SHIFT}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - ENTER
-  - NAV
+  - RIGHT ALT
   NAV:
   - '`'
   - '!'

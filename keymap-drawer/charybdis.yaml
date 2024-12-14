@@ -39,7 +39,7 @@ layers:
   - LEFT COMMAND
   - NUM
   - SPACE
-  - ENTER
+  - {t: ENTER, h: MOUSE}
   - NAV
   NUM:
   - ESCAPE
@@ -293,7 +293,7 @@ layers:
   - {t: ▽, type: trans}
   - L CLK
   - R CLK
-  - RETURN
+  - {t: RETURN, type: held}
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}

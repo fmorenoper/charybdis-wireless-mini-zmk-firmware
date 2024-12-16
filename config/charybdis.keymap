@@ -16,8 +16,8 @@
         compatible = "zmk,conditional-layers";
 
         Third_Layer {
-            if-layers = <0 1>;
-            then-layer = <2>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 
@@ -101,7 +101,7 @@
         td_layers: td_layer_swap {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&to 5>, <&to 4>; // tap, double_tap, tripple_tap
+            bindings = <&to 0>, <&to 1>, <&to 2>; // tap, double_tap, tripple_tap
         };
 
         td_clk_scrl: td_click_or_scroll {

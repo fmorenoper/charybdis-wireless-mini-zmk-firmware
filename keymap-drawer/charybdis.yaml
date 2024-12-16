@@ -17,12 +17,12 @@ layers:
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LCMD}
-  - G
-  - H
+  - {t: G, h: NAV}
+  - {t: H, h: NAV}
   - {t: J, h: RCMD}
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: LCMD}
+  - {t: ;, h: NUM}
   - ''''
   - {t: '*', h: LEFT SHIFT}
   - Z
@@ -101,7 +101,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '='
   - '['
   - ']'
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   SYM:
   - ''
   - ''
@@ -143,7 +143,7 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: BT, h: '4', type: held}
   - ''
   - VOLUME UP
   - VOLUME DOWN
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   GAME: ['1', TAB, Q, W, E, R, '', '', '', '', '', '', '2', LCTRL, A, S, D, F, '', '', '', '', '', '', '3', LSHFT, Z, X, C, V, '', '', '', '', '', '', '', SPACE,
     LEFT ALT, '', '']
   PHOTOS:

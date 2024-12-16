@@ -36,9 +36,9 @@ layers:
   - .
   - /
   - {t: (, h: RSHIFT}
-  - LEFT COMMAND
-  - NUM
-  - SPACE
+  - SCRL SLOW
+  - L CLK
+  - {t: SPACE, h: NUM}
   - {t: ENTER, h: MOUSE}
   - NAV
   NUM:
@@ -79,8 +79,8 @@ layers:
   - Alt+ RIGHT
   - {t: '~', h: RIGHT SHIFT}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - ENTER
   - RIGHT ALT
   NAV:

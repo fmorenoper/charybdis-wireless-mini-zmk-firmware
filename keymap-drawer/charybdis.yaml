@@ -13,7 +13,7 @@ layers:
   - P
   - BACK SPACE
   - LCTRL
-  - {t: A, h: NAV}
+  - {t: A, h: NUM}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LCMD}
@@ -55,7 +55,7 @@ layers:
   - '0'
   - BACK SPACE
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - ''
   - ''
   - BACK SPACE
@@ -80,7 +80,7 @@ layers:
   - {t: '~', h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ENTER
   - RIGHT ALT
   NAV:
@@ -97,7 +97,7 @@ layers:
   - Sft+ 0
   - BACK SPACE
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   SYM:
   - ''
   - ''
@@ -164,9 +164,9 @@ layers:
   - {t: 'AGr+ ]', h: LSHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   GAME: ['1', TAB, Q, W, E, R, '', '', '', '', '', '', '2', LCTRL, A, S, D, F, '', '', '', '', '', '', '3', LSHFT, Z, X, C, V, '', '', '', '', '', '', '', SPACE,
     LEFT ALT, '', '']
   PHOTOS:

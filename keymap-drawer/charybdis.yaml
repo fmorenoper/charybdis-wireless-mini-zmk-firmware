@@ -14,15 +14,15 @@ layers:
   - BACK SPACE
   - LCTRL
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LCMD}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RCMD}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: LCMD}
   - ''''
   - {t: '*', h: LEFT SHIFT}
   - Z

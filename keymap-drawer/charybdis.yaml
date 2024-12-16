@@ -13,7 +13,7 @@ layers:
   - P
   - BACK SPACE
   - LCTRL
-  - A
+  - {t: A, h: NAV}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LCMD}
@@ -97,7 +97,7 @@ layers:
   - Sft+ 0
   - BACK SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   SYM:
   - ''
   - ''

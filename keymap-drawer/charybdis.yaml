@@ -13,17 +13,17 @@ layers:
   - P
   - BACK SPACE
   - LCTRL
-  - {t: A, h: NUM}
+  - A
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LCMD}
-  - {t: G, h: NAV}
-  - {t: H, h: NAV}
+  - G
+  - H
   - {t: J, h: RCMD}
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: NUM}
-  - ''''
+  - {t: ;, h: MOUSE}
+  - {t: '''', h: SCROLL}
   - {t: '*', h: LEFT SHIFT}
   - Z
   - X
@@ -35,10 +35,10 @@ layers:
   - ','
   - .
   - {t: /, h: MOUSE}
-  - {t: (, h: RSHIFT}
-  - SCRL SLOW
-  - L CLK
-  - {t: SPACE, h: NUM}
+  - {t: (, h: SLOW}
+  - {t: SPACE, h: LCTRL}
+  - {t: SPACE, h: LCMD}
+  - {t: ENTER, h: LEFT ALT}
   - {t: ENTER, h: NAV}
   - {t: SPACE, h: NUM}
   NUM:
@@ -55,7 +55,7 @@ layers:
   - '0'
   - ''''
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - ''
   - ''
   - BACK SPACE
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - RIGHT ALT
+  - {t: RIGHT ALT, type: held}
   NAV:
   - '`'
   - '!'
@@ -101,7 +101,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - '='
   - '['
   - ']'
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   SYM:
   - ''
@@ -139,11 +139,11 @@ layers:
   - ''
   - ''
   - BT CLR
-  - {t: BT, h: '0', type: held}
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4', type: held}
+  - {t: BT, h: '4'}
   - ''
   - VOLUME UP
   - VOLUME DOWN
@@ -165,8 +165,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   MOUSE:
   - ''
   - WHEEL L
@@ -187,10 +187,10 @@ layers:
   - MOVE R
   - FWD
   - ''
-  - RIGHT SHIFT
-  - RCTRL
-  - LEFT ALT
-  - LCMD
+  - L CLK
+  - R CLK
+  - M CLK
+  - {t: LCMD, type: held}
   - ''
   - ''
   - UNDO
@@ -202,7 +202,7 @@ layers:
   - L CLK
   - R CLK
   - M CLK
-  - {type: held}
+  - ''
   - ''
   - {t: ▽, type: trans}
   - L CLK
@@ -245,7 +245,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -275,7 +275,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

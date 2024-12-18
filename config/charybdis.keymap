@@ -193,10 +193,10 @@
 
         BASE {
             bindings = <
-&kp TAB              &kp Q    &kp W           &kp E        &kp R       &kp T          &kp Y        &kp U        &kp I        &kp O            &kp P            &kp BACKSPACE
-&kp LCTRL            &lt 1 A  &hm LEFT_ALT S  &hm LCTRL D  &hm LCMD F  &lt 2 G        &lt 2 H      &hm RCMD J   &hm RCTRL K  &hm RIGHT_ALT L  &lt 1 SEMICOLON  &kp SQT
-&mt LEFT_SHIFT STAR  &kp Z    &kp X           &kp C        &kp V       &kp B          &kp N        &kp M        &kp COMMA    &kp DOT          &lt 4 FSLH       &mt RSHIFT LPAR
-                                              &td_cursor   &mkp LCLK   &lt 1 SPACE    &lt 2 ENTER  &lt 1 SPACE
+&kp TAB              &kp Q    &kp W           &kp E            &kp R           &kp T                 &kp Y        &kp U        &kp I        &kp O            &kp P            &kp BACKSPACE
+&kp LCTRL            &lt 1 A  &hm LEFT_ALT S  &hm LCTRL D      &hm LCMD F      &lt 2 G               &lt 2 H      &hm RCMD J   &hm RCTRL K  &hm RIGHT_ALT L  &lt 4 SEMICOLON  &lt 6 SQT
+&mt LEFT_SHIFT STAR  &kp Z    &kp X           &kp C            &kp V           &kp B                 &kp N        &kp M        &kp COMMA    &kp DOT          &lt 4 FSLH       &lt 5 LPAR
+                                              &hm LCTRL SPACE  &hm LCMD SPACE  &hm LEFT_ALT ENTER    &lt 2 ENTER  &lt 1 SPACE
             >;
         };
 
@@ -229,9 +229,9 @@
 
         MOUSE {
             bindings = <
-&none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &none       &none            &none      &none         &none     &none
-&kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &none       &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp LCMD  &none
-&none    &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &mkp MCLK          &none       &mkp LCLK        &mkp RCLK  &mkp MCLK     &none     &none
+&none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &none       &none      &none      &none      &none     &none
+&kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &none       &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp LCMD  &none
+&none    &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &mkp MCLK          &none       &mkp LCLK  &mkp RCLK  &mkp MCLK  &none     &none
                                          &trans          &mkp LCLK        &mkp RCLK          &kp RETURN  &trans
             >;
         };

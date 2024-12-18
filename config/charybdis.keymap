@@ -27,7 +27,7 @@
     trackball_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <0 2 7>;
+        layers = <0 1 2 3 4>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -42,7 +42,7 @@
     trackball_snipe_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <8>;
+        layers = <5>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -55,7 +55,7 @@
     trackball_scroll_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <9>;
+        layers = <6>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_MISC>;
         y-input-code = <INPUT_REL_WHEEL>;
@@ -158,14 +158,6 @@
             key-positions = <38 39>;
         };
 
-        // GameLayer {
-        //     bindings = <&tog 4>;
-        //     key-positions = <8 9>;
-        // };
-        // PhotoLayer {
-        //     bindings = <&tog 5>;
-        //     key-positions = <2 3>;
-        // };
     };
 
     // ╭──────┬──────┬──────┬──────┬──────┬──────╮  ╭──────┬──────┬──────┬──────┬──────┬──────╮
@@ -181,12 +173,9 @@
     // #define NUM     1
     // #define NAV     2
     // #define SYM     3
-    // #define GAME    4
-    // #define PHOTOS  5
-    // #define EXTRAS  6
-    // #define MOUSE   7
-    // #define SLOW    8
-    // #define SCROLL  9
+    // #define MOUSE   4
+    // #define SLOW    5
+    // #define SCROLL  6
 
     keymap {
         compatible = "zmk,keymap";

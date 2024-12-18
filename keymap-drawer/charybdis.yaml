@@ -75,7 +75,7 @@ layers:
   - PAGE DOWN
   - LEFT
   - DOWN ARROW
-  - UP ARROW
+  - RIGHT
   - Alt+ RIGHT
   - {t: '~', h: RIGHT SHIFT}
   - {t: ▽, type: trans}

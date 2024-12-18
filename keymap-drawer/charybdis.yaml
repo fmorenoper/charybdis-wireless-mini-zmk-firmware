@@ -34,13 +34,13 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: MOUSE}
   - {t: (, h: RSHIFT}
   - SCRL SLOW
   - L CLK
   - {t: SPACE, h: NUM}
-  - {t: ENTER, h: MOUSE}
-  - {t: SPACE, h: NAV}
+  - {t: ENTER, h: NAV}
+  - {t: SPACE, h: NUM}
   NUM:
   - ESCAPE
   - '1'
@@ -62,7 +62,7 @@ layers:
   - HOME
   - PAGE UP
   - LEFT
-  - DOWN ARROW
+  - UP ARROW
   - UP ARROW
   - RIGHT
   - {t: ▽, type: trans}
@@ -73,9 +73,9 @@ layers:
   - ''
   - END
   - PAGE DOWN
-  - Alt+ LEFT
-  - Alt+ DOWN ARROW
-  - Alt+ UP ARROW
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
   - Alt+ RIGHT
   - {t: '~', h: RIGHT SHIFT}
   - {t: ▽, type: trans}
@@ -199,15 +199,15 @@ layers:
   - PASTE
   - M CLK
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - L CLK
+  - R CLK
+  - M CLK
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - L CLK
   - R CLK
-  - {t: RETURN, type: held}
+  - RETURN
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}

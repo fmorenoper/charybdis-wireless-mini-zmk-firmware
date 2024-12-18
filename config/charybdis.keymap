@@ -4,7 +4,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/pointing.h>
@@ -90,14 +89,16 @@
             quick-tap-ms = <150>; // If you press a tapped hold-tap again within quick-tap-ms milliseconds of the first press, it will always trigger the tap behavior.
             require-prior-idle-ms = <185>; // like quick-tap-ms however it will apply for any non-modifier key pressed before it
             bindings = <&kp>, <&kp>;
-  // hold, tap
+
+            // hold, tap
         };
 
         td_cursor: td_scroll_or_cursor {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&lt 9 ESC>, <&to 8>;
- // hold, tap, double_tap
+            bindings = <&lt 6 ESC>, <&to 5>;
+
+            // hold, tap, double_tap
         };
 
         httl: ht_two_layers {
@@ -113,21 +114,23 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&to 0>, <&to 1>, <&to 2>;
- // tap, double_tap, tripple_tap
+
+            // tap, double_tap, tripple_tap
         };
 
         td_clk_scrl: td_click_or_scroll {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&mkp RCLK>, <&mo 9>;
-  // tap/hold, double_tap
+            bindings = <&mkp RCLK>, <&mo 6>;
+
+            // tap/hold, double_tap
         };
 
         td_bore: BASE_or_EXTRA {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&mo 6>, <&to 0>;
+            bindings = <&mo 0>, <&to 0>;
         };
     };
 
@@ -193,7 +196,7 @@
 &kp TAB              &kp Q    &kp W           &kp E        &kp R       &kp T          &kp Y        &kp U        &kp I        &kp O            &kp P            &kp BACKSPACE
 &kp LCTRL            &lt 1 A  &hm LEFT_ALT S  &hm LCTRL D  &hm LCMD F  &lt 2 G        &lt 2 H      &hm RCMD J   &hm RCTRL K  &hm RIGHT_ALT L  &lt 1 SEMICOLON  &kp SQT
 &mt LEFT_SHIFT STAR  &kp Z    &kp X           &kp C        &kp V       &kp B          &kp N        &kp M        &kp COMMA    &kp DOT          &kp FSLH         &mt RSHIFT LPAR
-                                              &td_cursor   &mkp LCLK   &lt 1 SPACE    &lt 7 ENTER  &lt 2 SPACE
+                                              &td_cursor   &mkp LCLK   &lt 1 SPACE    &lt 4 ENTER  &lt 2 SPACE
             >;
         };
 
@@ -221,33 +224,6 @@
 &bt BT_CLR           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &none   &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &none              &none  &none
 &mt LSHIFT RA(LBKT)  &none         &none         &none             &none         &none           &none   &none            &none              &none              &none  &mt LSHIFT RA(RBKT)
                                                  &trans            &trans        &trans          &trans  &trans
-            >;
-        };
-
-        GAME {
-            bindings = <
-&kp N1  &kp TAB    &kp Q  &kp W  &kp E      &kp R           &none  &none  &none  &none  &none  &none
-&kp N2  &kp LCTRL  &kp A  &kp S  &kp D      &kp F           &none  &none  &none  &none  &none  &none
-&kp N3  &kp LSHFT  &kp Z  &kp X  &kp C      &kp V           &none  &none  &none  &none  &none  &none
-                          &none  &kp SPACE  &kp LEFT_ALT    &none  &none
-            >;
-        };
-
-        PHOTOS {
-            bindings = <
-&trans          &kp LA(LC(LS(Z)))  &kp LA(LC(LS(E)))  &kp LA(LC(LS(A)))  &kp LA(LC(LS(S)))  &kp LA(LC(LS(B)))    &none   &none   &none  &none  &none  &none
-&kp LC(LA(E))   &kp LEFT           &kp DOWN           &kp UP             &kp RIGHT          &kp LCTRL            &none   &none   &none  &none  &none  &trans
-&kp LS(DELETE)  &kp LA(LS(A))      &kp LA(KP_N1)      &kp LA(KP_N2)      &kp LA(KP_N3)      &none                &none   &none   &none  &none  &none  &none
-                                                      &trans             &trans             &trans               &trans  &trans
-            >;
-        };
-
-        EXTRAS {
-            bindings = <
-&kp C_POWER      &shrug  &lgtm     &gcm      &none  &kp C_BRIGHTNESS_INC    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3     &out OUT_TOG     &bt BT_CLR
-&kp C_SLEEP      &shit   &py_iter  &js_iter  &none  &kp C_BRIGHTNESS_DEC    &none         &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_STOP       &kp C_NEXT       &none
-&kp C_AL_COFFEE  &none   &none     &none     &none  &clip_hist              &new_dir      &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp PRINTSCREEN  &studio_unlock
-                                   &none     &none  &none                   &none         &none
             >;
         };
 

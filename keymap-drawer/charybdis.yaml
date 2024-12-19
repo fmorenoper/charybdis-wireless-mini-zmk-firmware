@@ -168,46 +168,46 @@ layers:
   - {type: held}
   - {type: held}
   MOUSE:
-  - ''
-  - WHEEL L
-  - WHEEL D
-  - MOVE UP
-  - WHEEL U
-  - WHEEL R
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - TAB
-  - BACK
-  - MOVE L
-  - MOVE D
-  - MOVE R
-  - FWD
-  - ''
-  - L CLK
-  - R CLK
-  - M CLK
-  - {t: LCMD, type: held}
-  - ''
-  - ''
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - M CLK
-  - ''
-  - L CLK
-  - R CLK
-  - M CLK
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - L CLK
   - R CLK
-  - RETURN
+  - M CLK
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L CLK
+  - R CLK
+  - M CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}

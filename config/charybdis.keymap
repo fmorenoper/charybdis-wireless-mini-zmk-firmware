@@ -43,10 +43,10 @@
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
         layers = <5>;
-        evt-type = <INPUT_EV_REL>;jm
+        evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
-        scale-multiplier = <1>;m
+        scale-multiplier = <1>;
         scale-divisor = <4>;
     };
 

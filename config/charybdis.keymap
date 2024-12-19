@@ -43,10 +43,10 @@
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
         layers = <5>;
-        evt-type = <INPUT_EV_REL>;
+        evt-type = <INPUT_EV_REL>;jm
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
-        scale-multiplier = <1>;
+        scale-multiplier = <1>;m
         scale-divisor = <4>;
     };
 
@@ -217,10 +217,10 @@
 
         MOUSE {
             bindings = <
-&none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &none       &none      &none      &none      &none     &none
-&kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &none       &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp LCMD  &none
-&none    &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &mkp MCLK          &none       &mkp LCLK  &mkp RCLK  &mkp MCLK  &none     &none
-                                         &trans          &mkp LCLK        &mkp RCLK          &kp RETURN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
             >;
         };
 

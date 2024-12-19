@@ -14,14 +14,14 @@ layers:
   - BACK SPACE
   - LCTRL
   - A
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LCMD}
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RCMD}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
+  - J
+  - K
+  - L
   - {t: ;, h: MOUSE}
   - {t: '''', h: SCROLL}
   - {t: '*', h: LEFT SHIFT}
@@ -34,11 +34,11 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: MOUSE}
-  - {t: (, h: SLOW}
-  - {t: SPACE, h: LCTRL}
+  - {t: /, h: SLOW}
+  - {t: (, h: SCROLL}
+  - {t: SPACE, h: LEFT ALT}
   - {t: SPACE, h: LCMD}
-  - {t: ENTER, h: LEFT ALT}
+  - {t: ENTER, h: LCTRL}
   - {t: ENTER, h: NAV}
   - {t: SPACE, h: NUM}
   NUM:
@@ -244,8 +244,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,7 +271,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,7 +283,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

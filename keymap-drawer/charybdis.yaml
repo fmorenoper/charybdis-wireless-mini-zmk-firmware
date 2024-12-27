@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: MOUSE}
+  - {t: ;, h: SLOW}
   - {t: '''', h: SCROLL}
   - {t: '*', h: LEFT SHIFT}
   - Z
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - {t: /, h: SLOW}
-  - {t: (, h: SCROLL}
+  - RIGHT SHIFT
   - {t: SPACE, h: LEFT ALT}
   - {t: SPACE, h: LCMD}
   - {t: ENTER, h: LCTRL}
@@ -125,43 +125,43 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  SYM:
-  - ''
-  - ''
-  - ''
-  - AGr+ 5
-  - ''
-  - ''
+  SYS:
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - ''
   - ''
   - EP ON
   - EP OFF
   - ''
+  - SLEEP
+  - BOOT LDR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - VOLUME UP
   - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
   - ''
-  - ''
-  - ''
-  - {t: 'AGr+ [', h: LSHIFT}
-  - ''
-  - ''
-  - ''
+  - BOOT LDR
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
   - ''
-  - {t: 'AGr+ ]', h: LSHIFT}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,9 +188,9 @@ layers:
   - {t: ▽, type: trans}
   - FWD
   - L CLK
-  - R CLK
-  - M CLK
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,8 +200,8 @@ layers:
   - {t: ▽, type: trans}
   - BACK
   - L CLK
-  - R CLK
-  - M CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -232,7 +232,7 @@ layers:
   - L CLK
   - R CLK
   - M CLK
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,7 +244,7 @@ layers:
   - L CLK
   - R CLK
   - M CLK
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

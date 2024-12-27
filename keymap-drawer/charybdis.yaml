@@ -186,8 +186,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - FWD
-  - L CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +196,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - L CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,3 +307,7 @@ combos:
   k: L CLK
 - p: [19, 20]
   k: L CLK
+- p: [31, 30]
+  k: BACK
+- p: [18, 19]
+  k: FWD

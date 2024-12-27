@@ -1,6 +1,6 @@
 layers:
   BASE:
-  - TAB
+  - ESC
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - BACK SPACE
-  - LCTRL
+  - TAB
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - {t: SPACE, h: LEFT ALT}
   - {t: SPACE, h: LCMD}
   - {t: ENTER, h: LCTRL}
-  - {t: ENTER, h: NAV}
+  - {t: ENTER, h: SYMBOL}
   - {t: SPACE, h: NUM}
   NUM:
   - ESCAPE
@@ -61,10 +61,10 @@ layers:
   - BACK SPACE
   - HOME
   - PAGE UP
-  - LEFT
+  - {t: ▽, type: trans}
   - UP ARROW
-  - UP ARROW
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '`', h: LEFT SHIFT}
   - ''
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - {t: RIGHT ALT, type: held}
-  NAV:
+  SYMBOL:
   - '`'
   - '!'
   - '@'

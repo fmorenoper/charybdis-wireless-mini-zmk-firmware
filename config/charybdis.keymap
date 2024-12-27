@@ -188,8 +188,8 @@
 
         BASE {
             bindings = <
-&kp TAB              &kp Q  &kp W  &kp E               &kp R           &kp T              &kp Y        &kp U        &kp I      &kp O    &kp P            &kp BACKSPACE
-&kp LCTRL            &kp A  &kp S  &kp D               &kp F           &kp G              &kp H        &kp J        &kp K      &kp L    &lt 5 SEMICOLON  &lt 6 SQT
+&kp ESC              &kp Q  &kp W  &kp E               &kp R           &kp T              &kp Y        &kp U        &kp I      &kp O    &kp P            &kp BACKSPACE
+&kp TAB              &kp A  &kp S  &kp D               &kp F           &kp G              &kp H        &kp J        &kp K      &kp L    &lt 5 SEMICOLON  &lt 6 SQT
 &mt LEFT_SHIFT STAR  &kp Z  &kp X  &kp C               &kp V           &kp B              &kp N        &kp M        &kp COMMA  &kp DOT  &lt 5 FSLH       &kp RIGHT_SHIFT
                                    &hm LEFT_ALT SPACE  &hm LCMD SPACE  &hm LCTRL ENTER    &lt 2 ENTER  &lt 1 SPACE
             >;
@@ -198,13 +198,13 @@
         NUM {
             bindings = <
 &kp ESCAPE            &kp N1  &kp N2  &kp N3  &kp N4         &kp N5      &kp N6         &kp N7          &kp N8          &kp N9           &kp N0         &kp MINUS
-&trans                &none   &none   &none   &kp BACKSPACE  &kp HOME    &kp PAGE_UP    &kp LEFT_ARROW  &kp UP_ARROW    &kp UP_ARROW     &kp RIGHT      &trans
+&trans                &none   &none   &none   &kp BACKSPACE  &kp HOME    &kp PAGE_UP    &trans          &kp UP_ARROW    &trans           &trans         &trans
 &mt LEFT_SHIFT GRAVE  &none   &none   &none   &none          &kp END     &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LA(RIGHT)  &mt RIGHT_SHIFT TILDE
                                       &trans  &trans         &trans      &kp ENTER      &kp RIGHT_ALT
             >;
         };
 
-        NAV {
+        SYMBOL {
             bindings = <
 &kp GRAVE     &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp RS(N6)     &kp LS(N7)        &kp LS(N8)         &kp LS(NUMBER_9)  &kp LS(N0)  &kp BACKSPACE
 &trans        &trans    &trans  &trans    &trans      &trans         &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp GRAVE   &trans

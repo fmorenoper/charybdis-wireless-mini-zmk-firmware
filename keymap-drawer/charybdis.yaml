@@ -104,8 +104,8 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - '['
-  - ']'
-  - \
+  - AGr+ `
+  - AGr+ +
   - '`'
   - {t: ▽, type: trans}
   - AGr+ '
@@ -116,8 +116,8 @@ layers:
   - ''
   - Sft+ =
   - Sft+ -
-  - '}'
-  - '|'
+  - AGr+ '
+  - 'AGr+ #'
   - ''
   - 'AGr+ #'
   - {t: ▽, type: trans}

@@ -76,8 +76,8 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - Alt+ RIGHT
-  - {t: '~', h: RIGHT SHIFT}
+  - ']'
+  - {t: '[', h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,10 +104,10 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - '['
-  - AGr+ `
-  - AGr+ +
+  - AGr+ [
+  - AGr+ ]
   - '`'
-  - Sft+ \
+  - Sft+ `
   - AGr+ '
   - ''
   - ''

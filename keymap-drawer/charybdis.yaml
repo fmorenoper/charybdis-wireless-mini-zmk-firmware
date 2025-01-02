@@ -24,7 +24,7 @@ layers:
   - L
   - {t: ;, h: SLOW}
   - {t: '''', h: SCROLL}
-  - {t: '*', h: LEFT SHIFT}
+  - LEFT SHIFT
   - Z
   - X
   - C

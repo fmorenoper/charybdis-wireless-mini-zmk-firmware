@@ -81,8 +81,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - {t: RIGHT ALT, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   SYMBOL:
   - '`'
   - '!'
@@ -90,24 +90,24 @@ layers:
   - '#'
   - $
   - '%'
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
-  - BACK SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
-  - '['
-  - AGr+ [
-  - AGr+ ]
   - '`'
   - Sft+ `
+  - Sft+ 8
+  - Sft+ 9
+  - '-'
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - AGr+ '
+  - 'AGr+ #'
+  - AGr+ [
+  - AGr+ ]
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,7 +118,7 @@ layers:
   - Sft+ -
   - AGr+ '
   - 'AGr+ #'
-  - {t: ▽, type: trans}
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

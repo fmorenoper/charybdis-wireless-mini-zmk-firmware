@@ -210,15 +210,15 @@
 &kp ESCAPE  &kp N1  &kp N2  &kp N3  &kp N4         &kp N5      &kp N6         &kp N7          &kp N8          &kp N9           &kp N0    &kp MINUS
 &trans      &none   &none   &none   &kp BACKSPACE  &kp HOME    &kp PAGE_UP    &trans          &kp UP_ARROW    &trans           &trans    &trans
 &trans      &none   &none   &none   &none          &kp END     &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RBKT  &mt RIGHT_SHIFT LBKT
-                            &trans  &trans         &trans      &kp ENTER      &kp RIGHT_ALT
+                            &trans  &trans         &trans      &trans         &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp RS(N6)     &kp LS(N7)        &kp LS(N8)    &kp LS(NUMBER_9)  &kp LS(N0)  &kp BACKSPACE
-&trans     &trans    &trans  &trans    &trans      &trans         &kp EQUAL      &kp LEFT_BRACKET  &kp RA(LBKT)  &kp RA(RBKT)      &kp GRAVE   &kp LS(GRAVE)
-&trans     &trans    &trans  &trans    &trans      &trans         &kp LS(EQUAL)  &kp LS(MINUS)     &kp RA(APOS)  &kp RA(NUHS)      &trans      &trans
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp GRAVE      &kp LS(GRAVE)  &kp LS(N8)    &kp LS(NUMBER_9)  &kp MINUS  &kp EQUAL
+&trans     &trans    &trans  &trans    &trans      &trans         &kp RA(APOS)   &kp RA(NUHS)   &kp RA(LBKT)  &kp RA(RBKT)      &kp LBKT   &kp RBKT
+&trans     &trans    &trans  &trans    &trans      &trans         &kp LS(EQUAL)  &kp LS(MINUS)  &kp RA(APOS)  &kp RA(NUHS)      &kp SQT    &trans
                              &trans    &trans      &trans         &trans         &trans
             >;
         };

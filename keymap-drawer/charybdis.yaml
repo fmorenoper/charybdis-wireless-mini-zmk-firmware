@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: SLOW}
+  - {t: ;, h: SCROLL}
   - {t: '''', h: SCROLL}
   - LEFT SHIFT
   - Z
@@ -199,7 +199,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - L CLK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -232,7 +232,7 @@ layers:
   - L CLK
   - R CLK
   - M CLK
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,7 +244,7 @@ layers:
   - L CLK
   - R CLK
   - M CLK
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -274,8 +274,8 @@ layers:
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

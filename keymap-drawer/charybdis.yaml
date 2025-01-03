@@ -137,7 +137,7 @@ layers:
   - EP ON
   - EP OFF
   - ''
-  - SLEEP
+  - SLEEP MODE
   - BOOT LDR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

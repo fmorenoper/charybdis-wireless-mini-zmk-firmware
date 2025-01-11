@@ -36,8 +36,8 @@ layers:
   - .
   - {t: /, h: SLOW}
   - RIGHT SHIFT
-  - {t: SPACE, h: LEFT ALT}
-  - {t: ENTER, h: LCMD}
+  - {t: ENTER, h: LEFT ALT}
+  - {t: SPACE, h: LCMD}
   - {t: ENTER, h: LCTRL}
   - {t: ENTER, h: SYMBOL}
   - {t: SPACE, h: NUM}

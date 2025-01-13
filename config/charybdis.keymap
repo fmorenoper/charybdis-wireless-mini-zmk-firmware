@@ -215,10 +215,10 @@
 
         SYMBOL {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp GRAVE      &kp LS(GRAVE)  &kp LS(N8)    &kp LS(NUMBER_9)  &kp MINUS  &kp EQUAL
-&trans     &trans    &trans  &trans    &trans      &trans         &kp RA(APOS)   &kp RA(NUHS)   &kp RA(LBKT)  &kp RA(RBKT)      &kp LBKT   &kp RBKT
-&trans     &trans    &trans  &trans    &trans      &trans         &kp LS(EQUAL)  &kp LS(MINUS)  &kp RA(APOS)  &kp RA(NUHS)      &kp SQT    &kp NON_US_BACKSLASH
-                             &trans    &trans      &trans         &trans         &trans
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp GRAVE     &kp LS(GRAVE)  &kp LS(N8)    &kp LS(NUMBER_9)  &kp MINUS  &kp EQUAL
+&trans     &trans    &trans  &trans    &trans      &trans         &kp RA(APOS)  &kp RA(NUHS)   &kp RA(LBKT)  &kp RA(RBKT)      &kp LBKT   &kp RBKT
+&trans     &trans    &trans  &trans    &trans      &trans         &trans        &trans         &trans        &trans            &kp SQT    &kp NON_US_BACKSLASH
+                             &trans    &trans      &trans         &trans        &trans
             >;
         };
 

@@ -132,11 +132,11 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
-  - ''
-  - EP ON
-  - EP OFF
-  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - SLEEP MODE
   - BOOT LDR
   - {t: ▽, type: trans}
@@ -161,7 +161,7 @@ layers:
   - PLAY PAUSE
   - NEXT
   - ''
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

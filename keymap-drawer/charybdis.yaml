@@ -53,7 +53,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '-'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -61,7 +61,7 @@ layers:
   - BACK SPACE
   - HOME
   - PAGE UP
-  - {t: ▽, type: trans}
+  - LCMD
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -137,7 +137,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - SLEEP MODE
+  - BT CLR
   - BOOT LDR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -161,7 +161,7 @@ layers:
   - PLAY PAUSE
   - NEXT
   - ''
-  - BT CLR
+  - SLEEP MODE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
